@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Smart HRM</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_sign_in_subtitle">Please Sign In\nto Continue With the Application</string>
+    <string name="text_hint_email_field">Username</string>
+    <string name="text_hint_password_field">Password</string>
+    <string name="text_btn_forgot_password">Forgot Password</string>
+    <string name="text_btn_sign_in">Sign In</string>
+    <string name="text_or">----- Or -----</string>
+    <string name="text_not_have_an_account">Don\'t have an account? <b><font color='#039BE5'>Sign Up</font></b></string>
+    <string name="text_sign_up_subtitle">Please Sign Up\nto Continue With the Application</string>
+    <string name="text_sign_up_title">Sign Up</string>
+    <string name="text_hint_confirm_password_field">Confirm Password</string>
+    <string name="text_btn_sign_up">Sign Up</string>
+    <string name="text_have_an_account">Already have an account? <b><font color='#039BE5'>Sign In</font></b></string>
+</resources>
