@@ -10,16 +10,16 @@ class SharedPreferenceInfo(context: Context) {
     private var sharedPreferences: SharedPreferences? = null
     private var editor: SharedPreferences.Editor? = null
 
-    fun storeToken(point: Int, key: String?) {
+    fun storeToken(token: String, key: String?) {
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
         val editor = prefs.edit()
-        editor.putInt(key, point)
+        editor.putString(key, token)
         editor.apply()
     }
 
-    fun getToken(key: String?): Int {
+    fun getToken(key: String?): String? {
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
-        return prefs.getInt(key, 0)
+        return prefs.getString(key, "")
     }
 
 }

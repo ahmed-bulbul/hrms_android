@@ -20,7 +20,7 @@ class ClientInstance {
             .build()
 
         if (retrofit == null) {
-            val baseUrl = "http://192.168.134.88:9696/api/"
+            val baseUrl = "http://192.168.134.88:8080/api/"
             retrofit = Retrofit.Builder()
                 .baseUrl(baseUrl)
                 .addConverterFactory(GsonConverterFactory.create(gson))
